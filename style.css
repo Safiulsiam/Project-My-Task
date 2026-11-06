@@ -1,0 +1,99 @@
+body {
+font-family: Arial, sans-serif;
+background-color: azure ;
+color: darkcyan;
+width: 90%;
+margin: 0 auto;
+}
+
+h1 {
+color: teal;
+}
+
+/* Navigation */
+div {
+background-color: teal;
+padding: 10px;
+}
+
+div a {
+color: white;
+text-decoration: none;
+margin-right: 12px;
+}
+
+/* div a.active {
+font-weight: bold;
+
+} */
+
+div a.logout {
+
+color: red;
+display: block;
+text-align: right;
+}
+
+/* Sections */
+fieldset {
+background-color: white;
+border: 1px solid gray;
+padding: 10px;
+margin-bottom: 5px;
+}
+
+/* Tables */
+table {
+border-collapse: collapse;
+}
+
+th {
+background-color: aliceblue;
+}th, td {
+padding: 8px;
+}
+
+/* Form inputs /
+/ input, select, textarea {
+padding: 5px;
+} */
+
+/* Buttons */
+button, input[type=button], input[type=submit] {
+background-color: teal;
+color: white;
+border: none;
+padding: 6px 12px;
+cursor: pointer;
+}
+
+.danger {
+background-color: red;
+}
+
+.good {
+background-color: green;
+}
+
+/* Status badges */
+.badge {
+padding: 2px 8px;
+color: white;
+}
+
+.pending {
+background-color: orange;
+}
+
+.ok {
+background-color: green;
+}
+
+.bad {
+background-color: red;
+}
+
+/* Login / register page */
+body.account {
+width: 400px;
+}
