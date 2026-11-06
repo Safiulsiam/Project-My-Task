@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MediShop Pharmacist - Purchase Limits</title>
+     <link rel="stylesheet" type="text/css" href="CSS/style.css">
+</head>
+<body>
+    
+    <h1>MediShop Pharmacist</h1>
+    <p>Pharmacist panel</p>
+    
+    
+    <a href="#">Dashboard</a> |
+    <a href="#">Prescriptions</a> |
+    <a href="#">Purchase limits</a> |
+    <a href="#">Payments</a> |
+    <a href="#">Orders</a> |
+    <a href="#">Stock check</a> |
+    <a href="#">My profile</a> |
+    <a href="#">Logout</a>
+    
+    <br><br>
+    
+    <h2>Purchase limits</h2>
+    <p>Limit per medicine and customer</p>
+    
+    <br>
+    
+    
+    <fieldset>
+        <legend>
+        <h3>Set a limit</h3>
+        </legend>
+        
+        <form action="" method="POST">
+        <table width="100%">
+        <tr>
+        <td>
+        <label>Medicine</label><br>
+        <select name="medicine">
+        <option>Napa 500mg</option>
+        <option>Amoxicillin 500mg</option>
+        <option>Cough syrup</option>
+        </select>
+        </td>
+        <td>
+        <label>Customer</label><br>
+        <select name="customer">
+        <option>All customers</option>
+        <option>Siyam</option>
+        <option>Sakib</option>
+        </select>
+         </td>
+        <td>
+        <label>Maximum quantity</label><br>
+        <input type="number" name="max_qty">
+        </td>
+        <td>
+        <label>Period</label><br>
+        <select name="period">
+        <option>Per order</option>
+        <option>Per day</option>
+        <option>Per month</option>
+         </select>
+        </td>
+        </tr>
+        </table>
+            <br>
+            <input type="submit" value="Save limit">
+        </form>
+    </fieldset>
+    
+    <br><br>
+    
+    
+    <fieldset>
+        <legend>
+            <h3>Active limits</h3>
+        </legend>
+        
+        <table border="1" width="100%">
+            <tr>
+                <th>Medicine</th>
+                <th>Customer</th>
+                <th>Max qty</th>
+                <th>Period</th>
+                <th>Action</th>
+            </tr>
+            <tr align="center">
+                <td>Napa 500mg</td>
+                <td>All customers</td>
+                <td>20</td>
+                <td>Per month</td>
+                <td>
+                    <input type="button" value="Edit">
+                    <input type="button" value="Remove">
+                </td>
+            </tr>
+            <tr align="center">
+                <td>Amoxicillin 500mg</td>
+                <td>Siyam</td>
+                <td>10</td>
+                <td>Per order</td>
+                <td>
+                    <input type="button" value="Edit">
+                    <input type="button" value="Remove">
+                </td>
+            </tr>
+            <tr align="center">
+                <td>Cough syrup</td>
+                <td>Sakib</td>
+                <td>2</td>
+                <td>Per day</td>
+                <td>
+                    <input type="button" value="Edit">
+                    <input type="button" value="Remove">
+                </td>
+            </tr>
+        </table>
+        
+    </fieldset>
+    
+    <br><br>
+
+</body>
+</html>
